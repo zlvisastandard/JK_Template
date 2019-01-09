@@ -28,6 +28,6 @@ if __name__ == '__main__':
             "marking":"androidbanner","type":"1",
             "token":"50609fd5ffd05c734195d4bbc8dd5092"}
     run = RunMethod()
-    data = run.run_main(url,'Post',data)
+    data = run.run_main('Post',url)
     # print(data)
 
